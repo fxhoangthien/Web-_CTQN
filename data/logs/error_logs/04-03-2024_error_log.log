@@ -1,0 +1,5 @@
+[Tue, 05 Mar 2024 04:12:10 +0800] [ctqn.net] [39.165.156.157] [Warning(2): stream_socket_client(): unable to connect to ssl://ctqn.net:443 (Connection timed out)] [FILE: /includes/functions.php] [LINE: 2981]
+[Tue, 05 Mar 2024 04:12:10 +0800] [ctqn.net] [39.165.156.157] [Warning(2): fwrite() expects parameter 1 to be resource, boolean given] [FILE: /includes/functions.php] [LINE: 3003]
+[Tue, 05 Mar 2024 04:12:10 +0800] [ctqn.net] [39.165.156.157] [Warning(2): stream_set_timeout() expects parameter 1 to be resource, boolean given] [FILE: /includes/functions.php] [LINE: 3005]
+[Tue, 05 Mar 2024 04:12:10 +0800] [ctqn.net] [39.165.156.157] [Warning(2): stream_get_contents() expects parameter 1 to be resource, boolean given] [FILE: /includes/functions.php] [LINE: 3006]
+[Tue, 05 Mar 2024 04:12:10 +0800] [ctqn.net] [39.165.156.157] [Warning(2): fclose() expects parameter 1 to be resource, boolean given] [FILE: /includes/functions.php] [LINE: 3008]

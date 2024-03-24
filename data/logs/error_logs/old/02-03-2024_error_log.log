@@ -1,0 +1,14 @@
+[Sun, 03 Mar 2024 06:04:43 +0800] [ctqn.net] [42.184.164.130] [Warning(2): stream_socket_client(): unable to connect to ssl://ctqn.net:443 (Connection timed out)] [FILE: /includes/functions.php] [LINE: 2981]
+[Sun, 03 Mar 2024 06:04:43 +0800] [ctqn.net] [42.184.164.130] [Warning(2): fwrite() expects parameter 1 to be resource, boolean given] [FILE: /includes/functions.php] [LINE: 3003]
+[Sun, 03 Mar 2024 06:04:43 +0800] [ctqn.net] [42.184.164.130] [Warning(2): stream_set_timeout() expects parameter 1 to be resource, boolean given] [FILE: /includes/functions.php] [LINE: 3005]
+[Sun, 03 Mar 2024 06:04:43 +0800] [ctqn.net] [42.184.164.130] [Warning(2): stream_get_contents() expects parameter 1 to be resource, boolean given] [FILE: /includes/functions.php] [LINE: 3006]
+[Sun, 03 Mar 2024 06:04:43 +0800] [ctqn.net] [42.184.164.130] [Warning(2): fclose() expects parameter 1 to be resource, boolean given] [FILE: /includes/functions.php] [LINE: 3008]
+[Sun, 03 Mar 2024 06:05:14 +0800] [ctqn.net] [42.184.164.130] [Error(1): Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ctqnnet_qn1.qn1_vi_news_authorlist' doesn't exist in /home/ctqnnet/public_html/vendor/vinades/nukeviet/Core/Database.php:529
+Stack trace:
+#0 /home/ctqnnet/public_html/vendor/vinades/nukeviet/Core/Database.php(529): PDO->query('SELECT l.alias,...')
+#1 /home/ctqnnet/public_html/modules/news/funcs/detail.php(257): NukeViet\Core\Database->query('SELECT l.alias,...')
+#2 /home/ctqnnet/public_html/index.php(364): require('/home/ctqnnet/p...')
+#3 {main}
+  thrown] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 529]
+[Sun, 03 Mar 2024 06:07:50 +0800] [ctqn.net] [42.184.164.130] [Notice(8): Undefined index: captcha_type] [FILE: /index.php] [LINE: 121]
+[Sun, 03 Mar 2024 06:17:05 +0800] [ctqn.net] [42.184.164.130] [Warning(2): getimagesize(/home/ctqnnet/public_html/uploads/about/nha-tho-quy-nhon.jpg): failed to open stream: No such file or directory] [FILE: /modules/page/funcs/main.php] [LINE: 32]
